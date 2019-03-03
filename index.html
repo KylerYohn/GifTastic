@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>GifTastic</title>
+        <!--Link for the css stylesheet-->
+        <link rel = "stylesheet" type="text/css" href="style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+
+
+    </head>
+
+    <body>
+        <div class = "container">
+            <h1> Actor Gif search</h1>
+
+            <!--This is where The buttons that are made will go-->
+            <div id = "buttons"></div>
+
+            <!-- Create an input box so that way the user can produce a button as well-->
+            <form id="actors">
+                <label for = "actor-input">Add an Actor!</label>
+                <input type="text" id ="actor-input">
+                <br>
+
+                <!-- The button will trigger a new actor to be added-->
+                <input id="add-actor" type="submit" value="Add an Actor">
+            </form>
+
+            <div id="gif-view"></div>
+        </div>
+        <script src="giffy.js"></script>
+    </body>
+</html>

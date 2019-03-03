@@ -1,0 +1,87 @@
+
+.actor-button{
+    border-style: none;
+    margin-right: 20px;
+    margin-top: 10px;
+    padding: 20px, 25px;
+    width:150px;
+    height:85px;
+    background-color: lightblue;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+#buttons{
+    max-width: 75%;
+    height:auto;
+    margin: left;
+   
+}
+#actor-input{
+    width:200px;
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#add-actor{
+    border-style: none;
+    margin-right: 20px;
+    margin-top: 10px;
+    padding: 30px, 35px;
+    width:200px;
+    height:50px;
+    background-color: lightblue;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+#actors{
+    margin-top: 20px;
+    background-color: white;
+    width: 300px;
+    font-size: 25px;
+    font-family: sans-serif;
+    border-style: ridge;
+    border-color: lightblue;
+    position: absolute;
+    top: 40px;
+    right:200px;
+}
+
+
+.container{
+    max-width: 85%;
+    background-color: white;
+    height: auto;
+    margin: auto;
+    background-image: url("halftone-yellow.png");
+    background-repeat: repeat;
+}
+
+body{
+    background-image: url("halftone-yellow.png");
+    background-repeat: repeat;
+    position: relative;
+}
+
+.gifs{
+    float: left;
+    margin-right: 30px;
+   
+    
+}
+
+#gif-view{
+    max-width:70%;
+}
+
+h1{
+    background-color: lightblue;
+    width:300px;
+    height: 60px;
+    padding-top:15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
